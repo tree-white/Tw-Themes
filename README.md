@@ -2,17 +2,14 @@
 
 ## 使用
 ```
-克隆
-打开文件
-复制 `trwite` 文件夹和 `trwite.css` 到 `Typora` 主题文件中
+git clone https://github.com/tree-white/Tw-Themes.git
+cd Tw-Themes
+npm install
+npm run build
+复制打包后 `dist` 里面的 `trwite` 文件夹和 `trwite.css` 到 `Typora` 主题文件中
 ```
 
 ## 更新内容
 ```
-[2022-04-13 13:59:06] update
-[2022-04-13 14:02:18] update
-[2022-04-13 14:02:26] update
-[2022-04-13 14:02:30] update
-[2022-04-13 14:05:15] Update
-[2022-04-13 14:11:27] 初始化
 [2022-04-13 14:53:27] 初始化
+```

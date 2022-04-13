@@ -1,30 +1,30 @@
-/*!****************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/themes.scss ***!
-  \****************************************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/trwite.scss ***!
+  \**********************************************************************************************************/
 @charset "UTF-8";
 @font-face {
   font-family: "Trwite";
   font-style: normal;
   font-weight: normal;
-  src: local("Trwite Regular"), url(trwite/d926e27817c70cd1ddac.woff2) format("woff");
+  src: local("Trwite Regular"), url(trwite/d926e278.woff2) format("woff");
 }
 @font-face {
   font-family: "Trwite";
   font-style: italic;
   font-weight: normal;
-  src: local("Trwite Italic"), url(trwite/fa4b3cf9e7d30e794629.woff2) format("woff");
+  src: local("Trwite Italic"), url(trwite/fa4b3cf9.woff2) format("woff");
 }
 @font-face {
   font-family: "Trwite";
   font-style: normal;
   font-weight: bold;
-  src: local("Trwite Bold"), url(trwite/ac8b28af3d44aac5c472.woff2) format("woff");
+  src: local("Trwite Bold"), url(trwite/ac8b28af.woff2) format("woff");
 }
 @font-face {
   font-family: "Trwite";
   font-style: italic;
   font-weight: bold;
-  src: local("Trwite Bold Italic"), url(trwite/50ee75f6eec57e08bfe6.woff2) format("woff");
+  src: local("Trwite Bold Italic"), url(trwite/50ee75f6.woff2) format("woff");
 }
 /* 侧边栏 #typora-sidebar */
 #typora-sidebar {
@@ -122,7 +122,7 @@ blockquote li:last-child p {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url(trwite/082d3aea9ece64dfdeca.jpg) no-repeat 45% 90% transparent;
+  background: url(trwite/082d3aea.jpg) no-repeat 45% 90% transparent;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -131,7 +131,7 @@ blockquote li:last-child p {
 
 #write > p:first-child:not(:only-child)::before,
 #write > p:only-child::before {
-  background: url(trwite/082d3aea9ece64dfdeca.jpg) no-repeat 55% 90% transparent;
+  background: url(trwite/082d3aea.jpg) no-repeat 55% 90% transparent;
   background-size: cover;
 }
 

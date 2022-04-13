@@ -1,0 +1,35 @@
+{
+  "name": "tw-themes",
+  "version": "1.0.0",
+  "description": "一款Typora主题",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tree-white/Tw-Themes.git"
+  },
+  "keywords": [
+    "Markdown主题",
+    "Typora主题"
+  ],
+  "author": "Deployment <lesso.soft@lesso.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tree-white/Tw-Themes/issues"
+  },
+  "homepage": "https://github.com/tree-white/Tw-Themes#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "sass": "^1.50.0",
+    "sass-loader": "^12.6.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
