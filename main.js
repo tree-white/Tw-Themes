@@ -1,1 +1,1 @@
-import './src/trwite.scss'
+import './src/styles/index.scss'

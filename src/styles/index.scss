@@ -1,28 +1,6 @@
 @charset "UTF-8";
-@font-face {
-  font-family: "Trwite";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Trwite Regular"), url(./assets/font/d926e27817c70cd1ddac.woff2) format("woff");
-}
-@font-face {
-  font-family: "Trwite";
-  font-style: italic;
-  font-weight: normal;
-  src: local("Trwite Italic"), url(./assets/font/fa4b3cf9e7d30e794629.woff2) format("woff");
-}
-@font-face {
-  font-family: "Trwite";
-  font-style: normal;
-  font-weight: bold;
-  src: local("Trwite Bold"), url(./assets/font/ac8b28af3d44aac5c472.woff2) format("woff");
-}
-@font-face {
-  font-family: "Trwite";
-  font-style: italic;
-  font-weight: bold;
-  src: local("Trwite Bold Italic"), url(./assets/font/50ee75f6eec57e08bfe6.woff2) format("woff");
-}
+@import "./font.scss";
+
 /* 侧边栏 #typora-sidebar */
 #typora-sidebar {
   border: 1px solid #19191c;
@@ -119,7 +97,7 @@ blockquote li:last-child p {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url(./assets/images/082d3aea9ece64dfdeca.jpg) no-repeat 45% 90% transparent;
+  background: url(../assets/images/082d3aea9ece64dfdeca.jpg) no-repeat 45% 90% transparent;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -128,7 +106,7 @@ blockquote li:last-child p {
 
 #write > p:first-child:not(:only-child)::before,
 #write > p:only-child::before {
-  background: url(./assets/images/082d3aea9ece64dfdeca.jpg) no-repeat 55% 90% transparent;
+  background: url(../assets/images/082d3aea9ece64dfdeca.jpg) no-repeat 55% 90% transparent;
   background-size: cover;
 }
 
