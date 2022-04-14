@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import "./font.scss";
+@import "./write.scss";
 
 /* 侧边栏 #typora-sidebar */
 #typora-sidebar {
@@ -244,6 +245,7 @@ h2 {
   border-radius: 5px;
   box-shadow: black 5px 1px 5px;
   display: inline-block;
+  caret-color: #fff;
 }
 
 /* 配置H2标题的样式 */
