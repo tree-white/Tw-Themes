@@ -7,9 +7,14 @@ echo '-----------------------------------------'
 # 更新README更新记录
 date=$(date "+%Y年%m月%d日 %H:%M:%S")
 num=$(expr $(cat README.md | grep -n '更新内容' | awk -F ":" '{print $1}') + 1)
+
 sed -i '' $num'a\
-  '"> **[$date]** $msg"'
-  ' README.md
+>
+' README.md
+
+sed -i '' $num'a\
+'"> **[$date]** 测试"'
+' README.md
 
 # 构建
 npm run build
