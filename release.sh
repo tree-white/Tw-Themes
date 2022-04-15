@@ -19,9 +19,6 @@ sed -i '' $num'a\
 # 构建
 npm run build
 
-# 本地更新
-cp -rpf dist/{trwite,trwite.css} ~/Library/Application\ Support/abnerworks.Typora/themes
-
 # 更新GitHub
 git add .
 git commit -m "$msg"

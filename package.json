@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack && sh install.sh",
     "release": "sh release.sh"
   },
   "repository": {
