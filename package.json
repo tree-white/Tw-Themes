@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "webpack",
-    "build:Sync": "webpack && sh syncFile.sh"
+    "release": "sh release.sh"
   },
   "repository": {
     "type": "git",

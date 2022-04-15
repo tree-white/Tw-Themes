@@ -1,6 +1,7 @@
-#  Typora For Trwite Themes
+# Typora For Trwite Themes
 
 ## 使用
+
 ```
 git clone https://github.com/tree-white/Tw-Themes.git
 cd Tw-Themes
@@ -10,6 +11,6 @@ npm run build
 ```
 
 ## 更新内容
-```
-[2022-04-13 14:53:27] 初始化
-```
+
+  > **[2022年04月15日 11:55:53]** 增加自动部署
+> **[2022-04-13 14:53:27]** 初始化
