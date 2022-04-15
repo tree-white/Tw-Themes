@@ -148,6 +148,10 @@ h6.md-focus.md-heading:before {
   content: counter(h4) "." counter(h5) "." counter(h6) " ";
 }
 
+#write > h3.md-focus:before {
+  content: "";
+}
+
 #write > h4.md-focus:before,
 #write > h5.md-focus:before,
 #write > h6.md-focus:before,
