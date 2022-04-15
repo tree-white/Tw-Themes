@@ -70,6 +70,10 @@ blockquote {
   padding: 10px 15px;
   color: #5bc0de;
   border-radius: 6px;
+
+  & > p {
+    line-height: 2em;
+  }
 }
 
 blockquote li:last-child p {
@@ -126,35 +130,27 @@ blockquote li:last-child p {
   margin-top: 30px;
 }
 
-#write h3:before,
-h3.md-focus.md-heading:before {
-  counter-increment: h3;
-  content: counter(h3) " ";
-}
-
 #write h4:before,
 h4.md-focus.md-heading:before {
   counter-increment: h4;
-  content: counter(h3) "." counter(h4) " ";
+  content: counter(h4) " ";
 }
 
 #write h5:before,
 h5.md-focus.md-heading:before {
   counter-increment: h5;
-  content: counter(h3) "." counter(h4) "." counter(h5) " ";
+  content: counter(h4) "." counter(h5) " ";
 }
 
 #write h6:before,
 h6.md-focus.md-heading:before {
   counter-increment: h6;
-  content: counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) " ";
+  content: counter(h4) "." counter(h5) "." counter(h6) " ";
 }
 
-#write > h3.md-focus:before,
 #write > h4.md-focus:before,
 #write > h5.md-focus:before,
 #write > h6.md-focus:before,
-h3.md-focus:before,
 h4.md-focus:before,
 h5.md-focus:before,
 h6.md-focus:before {
@@ -298,11 +294,6 @@ h6 {
 
 .outline-h5 {
   counter-reset: h6;
-}
-
-.outline-h3 > .outline-item > .outline-label:before {
-  counter-increment: h3;
-  content: counter(h3) " ";
 }
 
 .outline-h4 > .outline-item > .outline-label:before {
