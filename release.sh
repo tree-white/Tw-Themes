@@ -13,7 +13,7 @@ sed -i '' $num'a\
 ' README.md
 
 sed -i '' $num'a\
-'"> **[$date]** 测试"'
+'"> **[$date]** $msg"'
 ' README.md
 
 # 构建
